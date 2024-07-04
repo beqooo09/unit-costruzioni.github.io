@@ -27,7 +27,7 @@
                     },
                     arrows: {
                         style:"gyges",
-                        enable:true,
+                        enable:false,
                         hide_onmobile:true,
                         hide_under:600,
                         hide_onleave:false,
@@ -106,7 +106,7 @@
                     },
                     arrows: {
                         style:"gyges",
-                        enable:true,
+                        enable:false,
                         hide_onmobile:true,
                         hide_under:600,
                         hide_onleave:false,
@@ -186,7 +186,7 @@
                     },
                     arrows: {
                         style:"gyges",
-                        enable:true,
+                        enable:false,
                         hide_onmobile:true,
                         hide_under:600,
                         hide_onleave:false,

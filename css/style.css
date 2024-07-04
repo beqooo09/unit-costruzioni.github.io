@@ -1741,7 +1741,7 @@ img{
 	bottom:-1px;
 	width:60px;
 	height:1px;
-	background-color:#d32525;
+	background-color:#17519d;
 }
 
 .sec-title.light h2{
@@ -2913,7 +2913,7 @@ background-color: #042038;
 	bottom:-1px;
 	width:70px;
 	height:1px;
-	background-color: #d32525;
+	background-color: white;
 }
 
 /*Link Widget*/
@@ -2969,7 +2969,7 @@ background-color: #042038;
 	position:absolute;
 	left:0px;
 	top:5px;
-	color: #d32525;
+	color: #17519d;
 	font-size:24px;
 	line-height:1em;
 }
@@ -3835,7 +3835,7 @@ background-color: #042038;
 
 .gallery-item-five .inner-box .content .category{
 	position:relative;
-	color:#d32525;
+	color:#17519d;
 	font-size:16px;
 }
 
@@ -4483,7 +4483,7 @@ background-color: #042038;
 	top:5px;
 	font-weight:400;
 	font-size:30px;
-	color:#d32525;
+	color: #08689A;
 	line-height:1em;
 }
 
@@ -5947,7 +5947,7 @@ background-color: #042038;
 
 .services-block-five .inner-box:hover .icon-box{
 	color:#ffffff;
-	background-color:#d32525;
+	background-color:#17519d;
 }
 
 .services-block-five .inner-box .icon-box{
@@ -5985,14 +5985,16 @@ background-color: #042038;
 	-o-transition:all 0.3s ease;
 }
 
-.services-block-five .inner-box h3 a:hover{
-	color:#d32525;
+.services-block-five .inner-box h3 span:hover{
+	color: black;
+	cursor: default;
 }
 
 .services-block-five .inner-box .text{
 	position:relative;
 	color:#848484;
 	font-size:16px;
+	cursor: default;
 }
 
 /*** 
@@ -7840,7 +7842,7 @@ background-color: #042038;
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus{
-	border-color:#d32525;
+	border-color:#17519d;
 }
 
 .contact-form textarea{
@@ -10414,3 +10416,14 @@ html, body {
 .unclickable > a:hover {
        cursor: default !important;
  }
+ 
+ @media screen and (max-width: 480px) {
+	.clearfix {
+		flex-direction: column !important;
+		align-items: center;
+	}
+	.upper-right {
+		flex-direction: column;
+		align-items: center;
+	}
+}
