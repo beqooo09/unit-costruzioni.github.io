@@ -4423,7 +4423,7 @@ background-color: #042038;
 
 ***/
 
-.about-section .image-column{
+/* .about-section .image-column{
 	position:relative;
 	margin-bottom:40px;
 }
@@ -4436,10 +4436,12 @@ background-color: #042038;
 	position:relative;
 	width:100%;
 	display:block;
-}
+} */
 
 .about-section .content-column{
-	position:relative;
+	justify-content: center;
+	text-align: center;
+
 }
 
 .about-section .content-column h3{
@@ -4449,6 +4451,8 @@ background-color: #042038;
 	font-weight:500;
 	line-height:1.4em;
 	margin-bottom:20px;
+	text-align: center;
+
 }
 
 .about-section .content-column .text{
@@ -4457,6 +4461,8 @@ background-color: #042038;
 	font-size:16px;
 	line-height:1.6em;
 	margin-bottom:30px;
+	text-align: center;
+
 }
 
 .about-section .content-column .info-list{
@@ -7749,7 +7755,7 @@ background-color: #042038;
 }
 
 .contact-section .sec-title .text{
-	max-width:790px;
+	/* max-width:790px; */
 }
 
 .contact-section .info-column{
